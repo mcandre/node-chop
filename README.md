@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/mcandre/node-chop.png)](http://travis-ci.org/mcandre/node-chop)
 # chop - A chop()/chomp() library for Node.js
 
 ## EXAMPLE
