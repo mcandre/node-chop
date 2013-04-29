@@ -11,7 +11,7 @@ function chomp(s) {
   else {
     var result = s.slice(0, s.length);
 
-    while (result.length > 1 && result[result.length - 1] == '\n' || result[result.length - 1] == '\r') {
+    while (result.length > 1 && result[result.length - 1] === "\n" || result[result.length - 1] === "\r") {
       result = result.slice(0, result.length - 1);
     }
 
