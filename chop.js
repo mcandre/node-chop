@@ -1,5 +1,3 @@
-"use strict";
-
 function chop(s) {
   return s.slice(0, s.length - 1);
 }
