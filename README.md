@@ -15,7 +15,7 @@ Keep the code tidy:
 
 # EXAMPLE
 
-    $ npm install chop
+    $ npm install -g chop
     $ node
     > var chop = require("./chop");
     undefined
