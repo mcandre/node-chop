@@ -5,6 +5,7 @@
 Checkout the code, and install the dependencies:
 
     $ git clone https://github.com/mcandre/node-chop.git
+    $ cd node-chop
     $ npm install
 
 # Linting
