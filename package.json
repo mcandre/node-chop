@@ -17,6 +17,7 @@
     "node": "*"
   },
   "scripts": {
+    "test": "node example.js",
     "lint": "jshint ."
   },
   "dependencies": {},

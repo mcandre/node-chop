@@ -2,7 +2,11 @@
 
 # EXAMPLE
 
-    $ node example.js 
+    $ npm test
+
+    > chop@0.0.1 test /Users/andrew/Desktop/src/node-chop
+    > node example.js
+
     Howdy
     Howdy!
     Howdy!
