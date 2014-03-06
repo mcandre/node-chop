@@ -1,5 +1,9 @@
 # chop - A chop()/chomp() library for Node.js
 
+# INSTALL
+
+    $ npm install chop
+
 # EXAMPLE
 
     $ npm test
@@ -29,8 +33,11 @@ https://github.com/mcandre/node-chop
 * [Bundler](http://bundler.io/)
 * [Cucumber](http://cukes.info/)
 * [Guard](http://guardgem.org/)
+* [aspelllint](https://github.com/mcandre/aspelllint)
 
-# TESTING
+# DEVELOPMENT
+
+## Test
 
 Ensure the example script works as expected:
 
@@ -52,15 +59,18 @@ Guard can automatically run testing when the code changes:
     $ guard -G Guardfile-cucumber
     ...
 
-# INSTALL
-
-    $ npm install chop
-
-# LINT
+## Lint
 
 Keep the code tidy:
 
     $ npm run-script lint
+
+## Spell Check
+
+    $ aspelllint
+    ...
+
+## Local CI
 
 Guard can automatically lint when the code changes:
 
