@@ -6,7 +6,7 @@
 
 # EXAMPLE
 
-    $ npm test
+    $ grunt test
 
     > chop@0.0.1 test /Users/andrew/Desktop/src/node-chop
     > node example.js
@@ -41,8 +41,7 @@ https://github.com/mcandre/node-chop
 
 Ensure the example script works as expected:
 
-    $ bundle
-    $ cucumber
+    $ grunt cucumber
     Feature: Run example tests
 
       Scenario: Running example tests            # features/run_example_tests.feature:3
@@ -63,12 +62,11 @@ Guard can automatically run testing when the code changes:
 
 Keep the code tidy:
 
-    $ npm run-script lint
+    $ grunt lint
 
 ## Spell Check
 
-    $ aspelllint
-    ...
+    $ grunt aspelllint
 
 ## Local CI
 
