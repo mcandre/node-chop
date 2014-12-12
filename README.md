@@ -2,22 +2,26 @@
 
 # INSTALL
 
-    $ npm install chop
+```
+$ npm install chop
+```
 
 # EXAMPLE
 
-    $ grunt test
+```
+$ grunt test
 
-    > chop@0.0.1 test /Users/andrew/Desktop/src/node-chop
-    > node example.js
+> chop@0.0.1 test /Users/andrew/Desktop/src/node-chop
+> node example.js
 
-    Howdy
-    Howdy!
-    Howdy!
+Howdy
+Howdy!
+Howdy!
 
-    Howdy!
-    Howdy!
-    Howdy!
+Howdy!
+Howdy!
+Howdy!
+```
 
 # HOMEPAGE
 
@@ -25,7 +29,7 @@ https://github.com/mcandre/node-chop
 
 # REQUIREMENTS
 
-* [Node.js](http://nodejs.org/) 0.10+
+* [Node.js](http://nodejs.org/) 0.8+
 
 ## Optional
 

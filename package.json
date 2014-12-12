@@ -11,10 +11,8 @@
   "directories": {
     "lib": "."
   },
-  "scripts": {
-  },
   "engines": {
-    "node": "*"
+    "node": ">=0.8"
   },
   "scripts": {
     "test": "node example.js",
