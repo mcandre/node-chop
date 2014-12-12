@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var chop = require("./chop");
+var chop = require("./lib/chop");
 
 console.log(chop.chop("Howdy!"));
 console.log(chop.chop("Howdy!\n"));

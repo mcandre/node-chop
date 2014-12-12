@@ -45,40 +45,50 @@ https://github.com/mcandre/node-chop
 
 Ensure the example script works as expected:
 
-    $ grunt cucumber
-    Feature: Run example tests
+```
+$ grunt cucumber
+Feature: Run example tests
 
-      Scenario: Running example tests            # features/run_example_tests.feature:3
-        Given the program has finished           # features/step_definitions/steps.rb:1
-        Then the output is correct for each test # features/step_definitions/steps.rb:5
+  Scenario: Running example tests            # features/run_example_tests.feature:3
+    Given the program has finished           # features/step_definitions/steps.rb:1
+    Then the output is correct for each test # features/step_definitions/steps.rb:5
 
-    1 scenario (1 passed)
-    2 steps (2 passed)
-    0m0.059s
+1 scenario (1 passed)
+2 steps (2 passed)
+0m0.059s
+```
 
 Guard can automatically run testing when the code changes:
 
-    $ bundle
-    $ guard -G Guardfile-cucumber
-    ...
+```
+$ bundle
+$ guard -G Guardfile-cucumber
+...
+```
 
 ## Lint
 
 Keep the code tidy:
 
-    $ grunt lint
+```
+$ grunt lint
+```
 
 ## Spell Check
 
-    $ grunt aspelllint
+```
+$ grunt aspelllint
+```
 
 ## Local CI
 
 Guard can automatically lint when the code changes:
 
-    $ bundle
-    $ guard -G Guardfile-lint
-    ...
+```
+$ bundle
+$ guard -G Guardfile-lint
+...
+```
 
 ## Git Hooks
 

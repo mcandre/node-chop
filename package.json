@@ -8,12 +8,10 @@
   },
   "author": "Andrew Pennebaker <andrew.pennebaker@gmail.com> (http://www.yellosoft.us/)",
   "main": "chop",
-  "directories": {
-    "lib": "."
-  },
   "engines": {
     "node": ">=0.8"
   },
+  "main": "lib/chop.js",
   "scripts": {
     "test": "node example.js",
     "lint": "jshint ."
