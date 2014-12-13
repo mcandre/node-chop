@@ -2,7 +2,6 @@ module.exports = function(grunt) {
   grunt.initConfig({
 		exec: {
 			test: "npm test",
-      cucumber: "bundle exec cucumber",
       jshint: "jshint .",
       aspelllint: "bundle exec aspelllint",
       lili: "bundle exec lili ."
@@ -13,7 +12,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask("default", ["exec:test"]);
   grunt.registerTask("test", ["exec:test"]);
-  grunt.registerTask("cucumber", ["exec:cucumber"]);
 
   grunt.registerTask("lint", [
     "exec:jshint",

@@ -13,10 +13,13 @@
   },
   "main": "lib/chop.js",
   "scripts": {
-    "test": "node example.js",
+    "test": "mocha",
     "lint": "jshint ."
   },
-  "dependencies": {},
+  "dependencies": {
+    "pkginfo": "~0.3.0",
+    "mocha": "1.21.4"
+  },
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-cli": "~0.1.13",

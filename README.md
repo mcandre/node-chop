@@ -1,31 +1,40 @@
 # chop - A chop()/chomp() library for Node.js
 
-# INSTALL
+# HOMEPAGE
 
-```
-$ npm install chop
-```
+https://github.com/mcandre/node-chop
 
 # EXAMPLE
 
 ```
 $ grunt test
+Running "exec:test" (exec) task
 
 > chop@0.0.1 test /Users/andrew/Desktop/src/node-chop
-> node example.js
+> mocha
 
-Howdy
-Howdy!
-Howdy!
 
-Howdy!
-Howdy!
-Howdy!
+
+  chop
+    chop
+      ✓ should handle EOLs 
+      ✓ should handle no EOLs 
+    chomp
+      ✓ should handle EOLs 
+      ✓ should handle no EOLs 
+
+
+  4 passing (6ms)
+
+
+Done, without errors.
 ```
 
-# HOMEPAGE
+# INSTALL
 
-https://github.com/mcandre/node-chop
+```
+$ npm install [-g] chop
+```
 
 # REQUIREMENTS
 
@@ -35,7 +44,6 @@ https://github.com/mcandre/node-chop
 
 * [Ruby](https://www.ruby-lang.org/) 2+
 * [Bundler](http://bundler.io/)
-* [Cucumber](http://cukes.info/)
 * [Guard](http://guardgem.org/)
 * [aspelllint](https://github.com/mcandre/aspelllint)
 
@@ -43,26 +51,18 @@ https://github.com/mcandre/node-chop
 
 ## Test
 
-Ensure the example script works as expected:
+Ensure the logic is correct:
 
 ```
-$ grunt cucumber
-Feature: Run example tests
-
-  Scenario: Running example tests            # features/run_example_tests.feature:3
-    Given the program has finished           # features/step_definitions/steps.rb:1
-    Then the output is correct for each test # features/step_definitions/steps.rb:5
-
-1 scenario (1 passed)
-2 steps (2 passed)
-0m0.059s
+$ grunt test
+...
 ```
 
 Guard can automatically run testing when the code changes:
 
 ```
 $ bundle
-$ guard -G Guardfile-cucumber
+$ guard -G Guardfile
 ...
 ```
 

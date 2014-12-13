@@ -1,7 +1,7 @@
 guard :shell do
-  watch(/^.*\.(rb|feature|js)$/) do |m|
-    title = 'Cucumber'
-    eager 'cucumber 2>&1'
+  watch(/^.*\.js$/) do |m|
+    title = 'Test'
+    eager 'grunt test'
     status = ($?.success? && :success) || :failed
     n '', title, status
     ''
