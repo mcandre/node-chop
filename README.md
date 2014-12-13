@@ -1,9 +1,5 @@
 # chop - A chop()/chomp() library for Node.js
 
-# HOMEPAGE
-
-https://github.com/mcandre/node-chop
-
 # EXAMPLE
 
 ```
@@ -29,6 +25,14 @@ Running "exec:test" (exec) task
 
 Done, without errors.
 ```
+
+# HOMEPAGE
+
+https://github.com/mcandre/node-chop
+
+# NPM
+
+https://www.npmjs.com/package/chop
 
 # INSTALL
 
