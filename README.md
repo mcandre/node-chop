@@ -3,27 +3,20 @@
 # EXAMPLE
 
 ```
-$ grunt test
-Running "exec:test" (exec) task
-
-> chop@0.0.1 test /Users/andrew/Desktop/src/node-chop
-> mocha
-
-
-
-  chop
-    chop
-      ✓ should handle EOLs 
-      ✓ should handle no EOLs 
-    chomp
-      ✓ should handle EOLs 
-      ✓ should handle no EOLs 
-
-
-  4 passing (6ms)
-
-
-Done, without errors.
+$ node
+> var chop = require("chop");
+> chop.chop("abc\n");
+'abc'
+> chop.chop("abc\r\n");
+'abc\r'
+> chop.chop("abc");
+'ab'
+> chop.chomp("abc\n");
+'abc'
+> chop.chomp("abc\r\n");
+'abc'
+> chop.chomp("abc");
+'abc'
 ```
 
 # HOMEPAGE
@@ -33,12 +26,6 @@ https://github.com/mcandre/node-chop
 # NPM
 
 https://www.npmjs.com/package/chop
-
-# INSTALL
-
-```
-$ npm install [-g] chop
-```
 
 # REQUIREMENTS
 
