@@ -1,3 +1,5 @@
+"use strict";
+
 var
 assert = require("assert"),
 chop = require("../lib/chop");
