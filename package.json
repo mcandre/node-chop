@@ -14,8 +14,7 @@
   "main": "lib/chop.js",
   "scripts": {
     "exec": "exec",
-    "test": "mocha",
-    "lint": "jshint ."
+    "test": "mocha"
   },
   "dependencies": {
     "pkginfo": "~0.3.0",
