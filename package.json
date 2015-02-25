@@ -13,6 +13,7 @@
   },
   "main": "lib/chop.js",
   "scripts": {
+    "exec": "exec",
     "test": "mocha",
     "lint": "jshint ."
   },
