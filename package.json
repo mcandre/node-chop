@@ -19,7 +19,7 @@
   "dependencies": {
     "pkginfo": "~0.3.0",
     "mocha": "1.21.4",
-    "es6-shim": "0.34.1"
+    "rho-contracts": "0.0.5"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
