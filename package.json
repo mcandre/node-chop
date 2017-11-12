@@ -9,7 +9,7 @@
   "author": "Andrew Pennebaker <andrew.pennebaker@gmail.com> (http://www.yellosoft.us/)",
   "main": "chop",
   "engines": {
-    "node": ">=0.11.6"
+    "node": ">=6.9.1"
   },
   "main": "lib/chop.js",
   "scripts": {
