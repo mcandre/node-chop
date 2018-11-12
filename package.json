@@ -1,33 +1,33 @@
 {
-  "name": "chop",
-  "description": "A chop()/chomp() library for Node.js",
-  "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mcandre/node-chop.git"
-  },
-  "author": "Andrew Pennebaker <andrew.pennebaker@gmail.com> (http://www.yellosoft.us/)",
-  "main": "chop",
-  "engines": {
-    "node": ">=6.9.1"
-  },
-  "main": "lib/chop.js",
-  "scripts": {
-    "exec": "exec",
-    "test": "mocha"
-  },
-  "dependencies": {
-    "pkginfo": "~0.3.0",
-    "mocha": "1.21.4",
-    "rho-contracts": "0.0.5"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-cli": "~0.1.13",
-    "grunt-exec": "~0.4.6",
-    "jshint": ">=2.1.2",
-    "jslint": ">= 0.8.1",
-    "eslint": ">= 0.16.0",
-    "editorconfig-tools": ">= 0.0.1"
-  }
+    "name": "chop",
+    "description": "A chop()/chomp() library for Node.js",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mcandre/node-chop.git"
+    },
+    "author": "Andrew Pennebaker <andrew.pennebaker@gmail.com>",
+    "main": "chop",
+    "engines": {
+        "node": ">=6.9.1"
+    },
+    "main": "lib/chop.js",
+    "scripts": {
+        "exec": "exec",
+        "test": "mocha"
+    },
+    "dependencies": {
+        "pkginfo": "~0.3.0",
+        "mocha": "1.21.4",
+        "rho-contracts": "0.0.5"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-cli": "~0.1.13",
+        "grunt-exec": "~0.4.6",
+        "jshint": ">=2.1.2",
+        "jslint": ">= 0.8.1",
+        "eslint": ">= 0.16.0",
+        "eclint": "~2.8.1"
+    }
 }

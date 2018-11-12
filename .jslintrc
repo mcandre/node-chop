@@ -1,13 +1,13 @@
 {
-  "node": true,
-  "browser": true,
-  "plusplus": true,
-  "white": true,
-  "predef": [
-    "alert",
-    "$",
-    "describe",
-    "it"
-  ],
-  "terse": true
+    "node": true,
+    "browser": true,
+    "plusplus": true,
+    "white": true,
+    "predef": [
+        "alert",
+        "$",
+        "describe",
+        "it"
+    ],
+    "terse": true
 }
