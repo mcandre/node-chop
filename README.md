@@ -2,7 +2,7 @@
 
 # EXAMPLE
 
-```
+```console
 $ node
 > var chop = require("chop");
 > chop.chop("abc\n");
@@ -19,9 +19,9 @@ $ node
 'abc'
 ```
 
-# HOMEPAGE
+# DOCUMENTATION
 
-https://github.com/mcandre/node-chop
+https://mcandre.github.io/node-chop/
 
 # NPM
 
@@ -29,11 +29,11 @@ https://www.npmjs.com/package/chop
 
 # REQUIREMENTS
 
-* [Node.js](http://nodejs.org/) 6.9.1+
+* [Node.js](http://nodejs.org/) 14.15.1+
 
 ## Optional
 
-* [Ruby](https://www.ruby-lang.org/) 2.3+
+* [Ruby](https://www.ruby-lang.org/) 2.7+
 * [Bundler](http://bundler.io/)
 * [Guard](http://guardgem.org/)
 * [aspelllint](https://github.com/mcandre/aspelllint)
@@ -46,39 +46,26 @@ https://www.npmjs.com/package/chop
 
 Ensure the logic is correct:
 
-```
+```console
 $ grunt test
-...
-```
-
-Guard can automatically run testing when the code changes:
-
-```
-$ bundle
-$ guard -G Guardfile
-...
 ```
 
 ## Lint
 
 Keep the code tidy:
 
-```
+```console
 $ grunt lint
+```
+
+## Document
+
+```console
+$ grunt doc
 ```
 
 ## Spell Check
 
 ```
 $ grunt aspelllint
-```
-
-## Local CI
-
-Guard can automatically lint when the code changes:
-
-```
-$ bundle
-$ guard -G Guardfile-lint
-...
 ```
