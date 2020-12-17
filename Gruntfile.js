@@ -6,7 +6,6 @@ module.exports = function(grunt) {
             aspelllint: 'bundle exec aspelllint',
             eslint: 'node node_modules/eslint/bin/eslint .',
             jsdoc: 'jsdoc -d html -r lib',
-            jshint: 'node node_modules/jshint/bin/jshint .',
             test: 'npm test'
         }
     });
@@ -18,12 +17,10 @@ module.exports = function(grunt) {
     grunt.registerTask('test', ['exec:test']);
 
     grunt.registerTask('lint', [
-        'exec:jshint',
         'exec:eslint'
     ]);
 
     grunt.registerTask('aspelllint', ['exec:aspelllint']);
     grunt.registerTask('eslint', ['exec:eslint']);
     grunt.registerTask('jsdoc', ['exec:jsdoc']);
-    grunt.registerTask('jshint', ['exec:jshint']);
 };
